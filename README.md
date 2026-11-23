@@ -1,4 +1,16 @@
 # Multi-Channel Signal Viewer:
+
+> **About this copy.** This is a copy of the team repository [FaridaaHesham/Multi_Channel_Signal_Viewer](https://github.com/FaridaaHesham/Multi_Channel_Signal_Viewer), kept with its full commit history. It was a Digital Signal Processing course project at SBE, Cairo University (Sep–Nov 2025), built by a team of 5.
+>
+> **My contribution (Nour Bahgat): the ECG module, end to end.**
+> - Preprocessing: Butterworth band-pass and 50 Hz notch filtering, applied zero-phase with `filtfilt`.
+> - Beat analysis: R-peak detection and heartbeat-cycle extraction.
+> - Resampling, with an interactive slider that demonstrates aliasing.
+> - Integration of fine-tuned pretrained classifiers: a 6-class arrhythmia model with a binary normal/other fallback.
+> - XOR and recurrence-plot visualisations, the ECG page UI and the ECG documentation.
+>
+> Datasets, uploaded recordings and audio data were removed from this copy to keep it small. Some large pretrained weights were removed too, so those modules need their models re-downloaded.
+
 ## Project Overview
 This project provides an integrated platform for handling 1D medical and non-medical signals. It performs advanced digital signal processing, offers multi-modal visualization tools, and integrates AI-driven classification models for intelligent inference and analysis.
 - Medical Signals: Electrocardiography (ECG) and Electroencephalography (EEG) signals, with tools for preprocessing, visualization, and deep learning-based classification.
